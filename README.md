@@ -18,21 +18,21 @@ Compiling, Training, and Evaluating the Model
 -	Neurons, Layers, and Activation Functions:
 - Model 1:
     Layers: 3
-    Dense layer with 80 neurons, ReLU activation
-    Dense layer with 30 neurons, ReLU activation
-    Dense output layer with 1 neuron, Sigmoid activation
+    Dense layer with 80 neurons, ReLU activation;
+    Dense layer with 30 neurons, ReLU activation;
+    Dense output layer with 1 neuron, Sigmoid activation.
 - Optimized Model:
     Layers: 4
-  	Dense layer with 80 neurons, ReLU activation
-    Dropout layer with 0.2 rate
-    Dense layer with 30 neurons, ReLU activation
-    Dense output layer with 1 neuron, Sigmoid activation
+  	Dense layer with 80 neurons, ReLU activation;
+    Dropout layer with 0.2 rate;
+    Dense layer with 30 neurons, ReLU activation;
+    Dense output layer with 1 neuron, Sigmoid activation.
 - The ReLU activation function is used for hidden layers to introduce non-linearity, and Sigmoid activation is used in the output layer for binary classification.
 -	Model Performance:
-    Original Model:
+    - Original Model:
       Loss: 0.5603
       Accuracy: 0.7302
-    Optimized Model:
+    - Optimized Model:
       Loss: 0.5616
       Accuracy: 0.7264
 -	Steps to Increase Performance:
